@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 1.1rem;
+      position: absolute;
+      text-align: center;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="screen">
+
+  <main class="card">
+    <picture>
+      <source
+        media="(min-width: 55rem)"
+        srcset="./images/image-product-desktop.jpg"
+      >
+      <img src="./images/image-product-mobile.jpg" alt="Product Image">
+    </picture>
+
+    <section class="text-content">
+      <header>
+        <h2 class="text-overline color-aurometal-saurus">Perfume</h2>
+  
+        <h1 class="text-display color-gunmetal">Gabrielle Essence Eau De Parfum</h1>
+      </header>
+
+      <main class="text-body">
+        <p class="color-aurometal-saurus">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.</p>
+      </main>
+
+      <footer>
+        <main>
+          <strong class="text-display color-deep-aquamarine">$149.99</strong>
+          <span class="text-tached color-aurometal-saurus">$169.99</span>
+        </main>
+  
+        <button>
+          <img
+            src="./images/icon-cart.svg"
+            alt=""
+          />
+          <strong>Add to Cart</strong>
+        </button>
+      </footer>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/welpmoz/">Roswell Pando</a>.
+  </div>
+</body>
+</html>

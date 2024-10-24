@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --pure-white: white;
+    --cream: #F2EAE2;
+    --aurometal-saurus: #6C7289;
+    --deep-aquamarine: #3D8168;
+    --deep-aquamarine-hover: #1A4032;
+    --gunmetal: #1C232B;
+
+    --font-family-1: 'Fraunces', serif;
+    --font-family-2: 'Montserrat', sans-serif;
+
+    font-size: 62.5%;
+}
+
+.color-aurometal-saurus {
+    color: var(--aurometal-saurus);
+}
+
+.color-gunmetal {
+    color: var(--gunmetal);
+}
+
+.color-deep-aquamarine {
+    color: var(--deep-aquamarine);
+}
+
+.text-display {
+    font-family: var(--font-family-1);
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    letter-spacing: 0px;
+}
+
+.text-body {
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    letter-spacing: 0px;
+}
+
+.text-button {
+    font-family: var(--font-family-2);
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: auto;
+    letter-spacing: 0px;
+}
+
+.text-overline {
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: auto;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.text-tached {
+    font-family: var(--font-family-2);
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    letter-spacing: 0px;
+    line-height: 2.3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen {
+    min-height: 100vh;
+    padding: 2.8rem 0;
+    position: relative;
+    background-color: var(--cream);
+    display: grid;
+    grid-template-columns: repeat(4, 7.4rem);
+    gap: 1.6rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.screen > .card {
+    grid-column: 1 / 5 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen > .card > picture {
+    display: flex;
+}
+
+.screen > .card > picture > img {
+    max-inline-size: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+
+.screen > .card > .text-content {
+    background-color: var(--pure-white);
+    padding: 2.4rem 2.3rem 2.4rem 2.5rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.screen > .card > .text-content > header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.screen > .card > .text-content > footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 0.8rem;
+}
+
+.screen > .card > .text-content > footer > main {
+    display: flex;
+    gap: 1.9rem;
+    align-items: center;
+}
+
+.screen > .card > .text-content > footer > button {
+    padding: 1.5rem 0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--deep-aquamarine);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.16rem;
+    cursor: pointer;
+}
+
+.screen > .card > .text-content > footer > button:hover {
+    background-color: var(--deep-aquamarine-hover);
+}
+
+@media (min-width: 55rem) {
+    .screen {
+        grid-template-columns: repeat(8, 7rem);
+        gap: 3.6rem;
+    }
+
+    .screen > .card {
+        grid-column: 2 / 8;
+        flex-direction: row;
+    }
+
+    .screen > .card > picture > img {
+        border-radius: 1rem 0rem 0rem 1rem;
+    }
+
+    .screen > .card > .text-content {
+        padding: 3.2rem;
+        border-radius: 0rem 1rem 1rem 0rem;
+        gap: 2.4rem;
+        width: 110ch;
+    }
+
+    .screen > .card > .text-content > header {
+        gap: 2rem;
+    }
+
+    .screen > .card > .text-content > footer {
+        gap: 3rem;
+        margin-top: 0.5rem;
+    }
+}
