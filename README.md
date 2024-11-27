@@ -1,6 +1,6 @@
-# Frontend Mentor - Recipe Page
+# Frontend Mentor - Product Preview Card Component
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/welpmoz/Social-Links-Profile).
-- Live Site URL: [Live site](https://welpmoz.github.io/Social-Links-Profile/)
+- Solution URL: [GitHub repository](https://github.com/welpmoz/Product-Preview-Card-Component).
+- Live Site URL: [Live site](https://welpmoz.github.io/Product-Preview-Card-Component/)
 
 ## My process
 
@@ -33,7 +33,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS grid
 - Class based CSS styles
 - Google Fonts
-- Git
+- Git & GitHub
 
 
 ### Useful resources
